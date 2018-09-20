@@ -1,0 +1,34 @@
+.section-header {
+    position: relative;
+    overflow: hidden;
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 768px 427px;
+    height: 427px;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-header {
+        background-image: url("../img/header-bg-medium.jpg");
+        background-size: 992px 552px;
+        height: 552px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .section-header {
+        background-image: url("../img/header-bg-medium-second.jpg");
+        background-size: 1170px 651px;
+        height: 651px;
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .section-header {
+        background-image: url("../img/header-bg-large.jpg");
+        background-size: 1400px 779px;
+        background-size: cover;
+        height: 779px;
+    }
+}
