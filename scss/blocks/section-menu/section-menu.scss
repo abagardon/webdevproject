@@ -1,0 +1,23 @@
+.section-menu {
+    position: relative;
+    background-color: #fff;
+    font: inherit;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-menu_pos_static {
+    position: static;
+}
+
+.section-menu__logo {
+    margin: 0;
+    padding: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-menu__logo {
+        padding: 0;
+    }
+}
