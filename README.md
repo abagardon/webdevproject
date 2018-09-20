@@ -1,2 +1,2 @@
 # webdevproject
-Web Development Project
+Верстка макета Web Development Project
