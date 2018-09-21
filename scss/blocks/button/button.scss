@@ -1,0 +1,42 @@
+.button {
+    display: inline-block;
+    border: 3px solid #fff;
+    font: inherit;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 220px;
+    padding: 15px 10px;
+    margin: 10px;
+}
+
+.button_theme_green {
+    background-color: #00897b;
+    border: 3px solid #00897b;
+}
+
+@media only screen and (min-width: 992px) {
+    .button {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    text-decoration: none;
+    background-color: #00897b;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.button_theme_green:hover,
+.button_theme_green:active,
+.button_theme_green:focus {
+    text-decoration: none;
+    color: #fff;
+}
