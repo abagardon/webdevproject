@@ -1,0 +1,38 @@
+.caption {
+    margin: 0;
+    font: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.caption_weight_semibold {
+    font-weight: 600;
+}
+
+.section-header__caption {
+    margin: 0 auto 25px;
+    padding: 0 20px;
+    max-width: 330px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .caption {
+        font-size: 48px;
+    }
+    .section-header__caption {
+        max-width: none;
+        margin: 0 auto 25px;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .caption {
+        font-size: 60px;
+    }
+    .section-header__caption {
+        margin-bottom: 40px;
+    }
+}
