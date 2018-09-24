@@ -1,0 +1,69 @@
+.about {
+    padding: 30px 0;
+    background-color: #fff;
+    font: inherit;
+    color: inherit;
+}
+
+.about__header-content {
+    margin: 0 auto;
+    max-width: 630px;
+}
+
+.about__caption {
+    margin-bottom: 15px;
+}
+
+.about__description {
+    margin-bottom: 30px;
+}
+
+.about__caption-list {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.about__icon-web::before,
+.about__icon-transfer::before,
+.about__icon-head::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.about__icon-web::before {
+    background-image: url("../img/icon-web.png");
+    width: 62px;
+    height: 62px;
+    margin-left: -30px;
+}
+
+.about__icon-transfer::before {
+    background-image: url("../img/icon-transfer.png");
+    width: 70px;
+    height: 60px;
+    margin-left: -35px;
+}
+
+.about__icon-head::before {
+    background-image: url("../img/icon-head.png");
+    width: 57px;
+    height: 63px;
+    margin-left: -28px;
+}
+
+.about__description-list {
+    font: inherit;
+    color: inherit;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
