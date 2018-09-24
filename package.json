@@ -25,5 +25,8 @@
     "run-sequence": "^2.2.1",
     "stylelint-config-standard": "^18.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "normalize.css": "^8.0.0"
+  }
 }
