@@ -11,3 +11,19 @@
 .content-header__description {
     margin-bottom: 30px;
 }
+
+@media only screen and (min-width: 768px) {
+    .content-header__caption {
+        margin-bottom: 30px;
+    }
+
+    .content-header__description {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-header__description {
+        margin-bottom: 125px;
+    }
+}
