@@ -16,12 +16,9 @@
     max-width: 330px;
 }
 
-
 @media only screen and (min-width: 768px) {
-    .caption {
-        font-size: 48px;
-    }
     .section-header__caption {
+        font-size: 48px;
         max-width: none;
         margin: 0 auto 25px;
         padding: 0;
@@ -29,10 +26,8 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .caption {
-        font-size: 60px;
-    }
     .section-header__caption {
+        font-size: 60px;
         margin-bottom: 40px;
     }
 }
