@@ -1,5 +1,5 @@
-@import "scss/general/normalize.scss";
-@import "scss/general/bootstrap.scss";
+@import "../node_modules/normalize.css/normalize.scss";
+@import "../node_modules/bootstrap/dist/css/bootstrap.scss";
 @import "scss/general/fonts.scss";
 @import "scss/blocks/page/page.scss";
 @import "scss/blocks/navigation/navigation.scss";
