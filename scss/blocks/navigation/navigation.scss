@@ -53,11 +53,13 @@
 }
 
 .navigation__burger-block {
+    display: block;
     position: relative;
     box-sizing: border-box;
 }
 
 .navigation__burger {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -109,42 +111,53 @@
     .navigation__button {
         display: none;
     }
+
     .navigation__list {
         margin: 0;
         float: right;
     }
+
     .navigation__item {
         border-top: none;
         display: inline-block;
         padding: 0 8px;
     }
+
     .navigation__link {
         font-size: 14px;
         padding: 0;
     }
+
     .navigation__hidden {
         display: block;
     }
+
     .navigation__search-form-block {
         display: none;
     }
+
     .section-menu__content {
         padding: 25px 0;
     }
+
     .navigation__link-search {
         display: block;
     }
+
     .navigation__icon-search {
         position: static;
         top: 0;
         left: 0;
     }
+
     .navigation__desc-search_show {
         display: block;
     }
+
     .navigation__desc-search_show .navigation__search-form-block {
         display: block;
     }
+
     .navigation__desc-search_show .navigation__search-form {
         position: absolute;
         top: 0;
@@ -153,15 +166,18 @@
         width: 100%;
         padding: 0 20%;
     }
+
     .navigation__desc-search_show .navigation__icon-search {
         position: absolute;
         top: 25px;
         left: 21%;
     }
+
     .navigation__desc-search_show .navigation__search {
         padding: 5px 35px 5px 35px;
         margin: 15px 0;
     }
+
     .navigation__button-cross {
         display: block;
         background-image: url("../img/icon-cross.png");
@@ -188,23 +204,29 @@
     .navigation__link {
         font-size: 20px;
     }
+
     .section-menu__content {
         padding: 50px 0;
     }
+
     .navigation__item {
         padding: 0 10px;
     }
+
     .navigation__icon-search {
         width: 19px;
         height: 19px;
         top: 45px;
     }
+
     .navigation__desc-search_show .navigation__search {
         margin: 35px 0;
     }
+
     .navigation__button-cross {
         top: 35px;
     }
+
     .navigation__desc-search_show .navigation__icon-search {
         top: 45px;
     }
