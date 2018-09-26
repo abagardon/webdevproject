@@ -1,0 +1,92 @@
+.work {
+    font: inherit;
+    color: inherit;
+    background-color: #fff;
+}
+
+.work__buttons-block {
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.work__buttons-link {
+    display: inline-block;
+    font: inherit;
+    color: #212121;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 5px;
+    border: 2px solid #00897b;
+}
+
+.work__buttons-link:hover,
+.work__buttons-link:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #00897b;
+}
+
+.work__block-images {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    max-width: 370px;
+    height: 100%;
+    max-height: 370px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.work__image {
+    width: 100%;
+    height: auto;
+}
+
+.work__image-hover {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 145px;
+}
+
+.work__block-images:hover > .work__image-hover {
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.work__images-desc {
+    margin: 0;
+    font: inherit;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.work__images-desc_size-small {
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+}
+
+.work__button-view-all {
+    display: inline-block;
+    margin-top: 30px;
+    font: inherit;
+    color: #fff;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.7em 1.8em;
+    background-color: #00897b;
+    text-transform: uppercase;
+}
+
