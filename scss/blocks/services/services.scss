@@ -1,0 +1,68 @@
+.services {
+    font: inherit;
+    color: inherit;
+    background-color: #e4fdf9;
+}
+
+.services__item {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 0 1.2em 50px;
+}
+
+.services__item-title {
+    position: relative;
+    margin: 0;
+    padding-top: 160px;
+    margin-bottom: 20px;
+    font: inherit;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services__item-desc {
+    font: inherit;
+    color: inherit;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.services__item-link {
+    display: inline-block;
+    font: inherit;
+    color: inherit;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border: 2px solid #212121;
+}
+
+.services__item:hover .services__item-link {
+    border: 2px solid #fff;
+}
+
+.services__item:hover {
+    background-color: #00897b;
+}
+
+.services__item:hover .services__item-title,
+.services__item:hover .services__item-desc,
+.services__item:hover .services__item-link {
+    color: #fff;
+}
+
+.services__item-title::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: -28px;
+    width: 56px;
+    height: 62px;
+    background-image: url("../img/smartphone-dark.png");
+    background-repeat: no-repeat;
+}
+
+.services__item:hover .services__item-title::before {
+    background-image: url("../img/smartphone-light.png");
+}
