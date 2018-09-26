@@ -35,6 +35,7 @@
     font-weight: 600;
     padding: 0.5em 1em;
     border: 2px solid #212121;
+    text-transform: uppercase;
 }
 
 .services__item:hover .services__item-link {
@@ -65,4 +66,16 @@
 
 .services__item:hover .services__item-title::before {
     background-image: url("../img/smartphone-light.png");
+}
+
+@media only screen and (min-width: 768px) {
+    .services__item {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .services__item-link {
+        font-size: 20px;
+    }
 }
