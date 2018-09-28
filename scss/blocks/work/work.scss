@@ -90,3 +90,32 @@
     text-transform: uppercase;
 }
 
+@media only screen and (min-width: 768px) {
+    .work__image-hover {
+        padding-top: 90px;
+    }
+
+    .work__buttons-block {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .work__image-hover {
+        padding-top: 125px;
+    }
+
+    .work__buttons-link {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .work__image-hover {
+        padding-top: 155px;
+    }
+
+    .work__buttons-block {
+        margin-bottom: 120px;
+    }
+}
