@@ -1,0 +1,30 @@
+.team {
+    font: inherit;
+    color: #212121;
+    background-color: #fff;
+}
+
+.team__images {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.team__name {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.team__position {
+    display: block;
+    font: inherit;
+    color: inherit;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
