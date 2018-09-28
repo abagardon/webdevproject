@@ -1,0 +1,96 @@
+.plan {
+    background-color: #f0f1f1;
+}
+
+.plan__items {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 315px;
+    background-color: #fff;
+    margin: 0 auto 30px;
+    padding-bottom: 60px;
+    transition: box-shadow 0.4s linear;
+}
+
+.plan__items:hover {
+    box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.4s linear;
+}
+
+.plan__block-header {
+    background-color: #3949ab;
+    padding: 50px 0;
+    transform: skewY(-5deg);
+    margin-top: -15px;
+}
+
+.plan__title {
+    font: inherit;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+    transform: skewY(5deg);
+}
+
+.plan__price {
+    font: inherit;
+    font-size: 50px;
+    color: #fff;
+    transform: skewY(5deg);
+}
+
+.plan__price_size {
+    font-size: 17px;
+}
+
+.plan__price_size-sup {
+    font-size: 25px;
+}
+
+.plan__block-body {
+    margin: 45px 0 65px;
+}
+
+.plan__block-list {
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.plan__block-list-item {
+    padding: 30px 0 10px;
+    border-bottom: 2px solid #bfbfbf;
+    font: inherit;
+    color: #212121;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.plan__button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 28px;
+    border: 2px solid #000;
+    font: inherit;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plan__button:hover {
+    color: #fff;
+    border: 2px solid #00897b;
+    background-color: #00897b;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .plan__items {
+        max-width: 350px;
+    }
+}
