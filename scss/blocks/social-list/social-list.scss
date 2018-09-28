@@ -1,0 +1,115 @@
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team__item {
+    margin-bottom: 50px;
+}
+
+.social__items {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social__link {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f1f1;
+    border-radius: 10px;
+}
+
+.social-fb:hover,
+.social-fb:focus {
+    background-color: #3949ab;
+}
+
+.social-tw:hover,
+.social-tw:focus {
+    background-color: #00acee;
+}
+
+.social-msg:hover,
+.social-msg:focus {
+    background-color: #00897b;
+}
+
+.social-drb:hover,
+.social-drb:focus {
+    background-color: #ea4c89;
+}
+
+.social-fb::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -7px;
+    width: 15px;
+    height: 28px;
+    background-image: url("../img/icon-social-fb.png");
+    background-repeat: no-repeat;
+}
+
+.social-tw::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -11px;
+    margin-left: -13px;
+    width: 27px;
+    height: 22px;
+    background-image: url("../img/icon-social-tw.png");
+    background-repeat: no-repeat;
+}
+
+.social-msg::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -15px;
+    width: 30px;
+    height: 25px;
+    background-image: url("../img/icon-social-msg.png");
+    background-repeat: no-repeat;
+}
+
+.social-drb::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    width: 26px;
+    height: 27px;
+    background-image: url("../img/icon-social-drb.png");
+    background-repeat: no-repeat;
+}
+
+.social-fb:hover::before,
+.social-fb:focus::before {
+    background-image: url("../img/icon-social-fb-hover.png");
+}
+
+.social-tw:hover::before,
+.social-tw:focus::before {
+    background-image: url("../img/icon-social-tw-hover.png");
+}
+
+.social-msg:hover::before,
+.social-msg:focus::before {
+    background-image: url("../img/icon-social-msg-hover.png");
+}
+
+.social-drb:hover::before,
+.social-drb:focus::before {
+    background-image: url("../img/icon-social-drb-hover.png");
+}
