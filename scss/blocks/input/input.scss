@@ -1,0 +1,24 @@
+.input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    font: inherit;
+    color: #212121;
+    padding: 20px;
+    border: none;
+}
+
+.input__subbmit {
+    font: inherit;
+    color: #212121;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 40px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+}
+
