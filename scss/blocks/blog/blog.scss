@@ -1,0 +1,148 @@
+.blog {
+    font: inherit;
+    color: inherit;
+    background-color: #e4fdf9;
+}
+
+.blog__image {
+    display: block;
+    width: 100%;
+    max-width: 345px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.blog__content {
+    width: 100%;
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+.blog__title {
+    display: block;
+    text-decoration: none;
+    font: inherit;
+    color: #212121;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.blog__title:focus,
+.blog__title:hover {
+    text-decoration: none;
+    color: #00897b;
+}
+
+.blog__data-content {
+    margin-top: 20px;
+}
+
+.blog__data,
+.blog__author {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    font: inherit;
+    color: #212121;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 25px;
+}
+
+.icon-calendar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 18px;
+    background-image: url("../img/icon-calendar.png");
+    background-repeat: no-repeat;
+}
+
+.icon-document::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 18px;
+    background-image: url("../img/icon-document.png");
+    background-repeat: no-repeat;
+}
+
+.blog__description {
+    margin: 25px 0;
+    width: 100%;
+    max-width: 345px;
+}
+
+.blog__link-more {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: inherit;
+    color: #fff;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 1em 0.5em;
+    background-color: #00897b;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+    margin: 30px auto 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .blog__link-more {
+        margin: 80px auto 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .blog__link-more {
+        margin: 120px auto 0;
+    }
+
+    .blog__image {
+        max-width: 455px;
+    }
+
+    .blog__content {
+        margin: 0;
+    }
+
+    .blog__data,
+    .blog__author {
+        font-size: 14px;
+    }
+
+    .blog__title {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .blog__image {
+        max-width: 555px;
+    }
+
+    .blog__data,
+    .blog__author {
+        font-size: 17px;
+    }
+
+    .blog__content {
+        max-width: 470px;
+    }
+
+    .blog__description {
+        max-width: 470px;
+    }
+
+    .blog__data-content {
+        margin-top: 25px;
+    }
+}
