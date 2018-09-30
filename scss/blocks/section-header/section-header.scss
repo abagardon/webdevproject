@@ -12,11 +12,17 @@
 
 .section-header__content {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 45px;
 }
 
 .section-header__block-link {
     text-align: center;
+}
+
+@media only screen and (min-width: 390px) {
+    .section-header__content {
+        padding-top: 75px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -27,7 +33,7 @@
     }
 
     .section-header__content {
-        padding-top: 180px;
+        padding-top: 130px;
     }
 }
 
@@ -36,6 +42,10 @@
         background-image: url("../img/header-bg-medium-second.jpg");
         background-size: 1170px 651px;
         height: 651px;
+    }
+
+    .section-header__content {
+        padding-top: 180px;
     }
 }
 
