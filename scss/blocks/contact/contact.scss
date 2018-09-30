@@ -40,6 +40,15 @@
     line-height: 1.6em;
 }
 
+.contact__list-info a {
+    font: inherit;
+    color: inherit;
+}
+
+.contact__list-address {
+    margin: 0;
+}
+
 .contact__input-name {
     margin-bottom: 15px;
 }
