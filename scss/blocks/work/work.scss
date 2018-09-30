@@ -88,6 +88,16 @@
     padding: 0.7em 1.8em;
     background-color: #00897b;
     text-transform: uppercase;
+    border: 2px solid transparent;
+}
+
+.work__button-view-all:hover,
+.work__button-view-all:focus,
+.work__button-view-all:active {
+    color: #212121;
+    border: 2px solid #212121;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {

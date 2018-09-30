@@ -93,6 +93,16 @@
     max-width: 220px;
     text-align: center;
     margin: 30px auto 0;
+    border: 2px solid transparent;
+}
+
+.blog__link-more:hover,
+.blog__link-more:focus,
+.blog__link-more:active {
+    color: #212121;
+    border: 2px solid #212121;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {

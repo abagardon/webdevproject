@@ -82,7 +82,9 @@
     font-weight: 600;
 }
 
-.plan__button:hover {
+.plan__button:hover,
+.plan__button:focus,
+.plan__button:active {
     color: #fff;
     border: 2px solid #00897b;
     background-color: #00897b;

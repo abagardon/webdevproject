@@ -22,3 +22,10 @@
     float: right;
 }
 
+.input__subbmit:hover,
+.input__subbmit:focus,
+.input__subbmit:active {
+    color: #fff;
+    background-color: #00897b;
+    text-decoration: none;
+}

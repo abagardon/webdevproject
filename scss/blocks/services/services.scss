@@ -33,9 +33,17 @@
     font: inherit;
     color: inherit;
     font-weight: 600;
-    padding: 0.5em 1em;
+    padding: 0.8em 0.5em;
     border: 2px solid #212121;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.services__item-link:hover,
+.services__item-link:focus,
+.services__item-link:active {
+    color: #212121;
+    text-decoration: none;
 }
 
 .services__item:hover .services__item-link {

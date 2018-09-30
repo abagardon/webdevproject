@@ -20,6 +20,15 @@
     font-weight: 600;
     color: #212121;
     padding: 14px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.navigation__link:hover,
+.navigation__link:focus,
+.navigation__link:active {
+    color: #212121;
+    border-bottom: 3px solid #00897b;
+    text-decoration: none;
 }
 
 .navigation__search-form {
@@ -101,6 +110,14 @@
 
 .navigation__link-search {
     display: none;
+    border-bottom: 3px solid transparent;
+}
+
+.navigation__link-search:hover,
+.navigation__link-search:focus,
+.navigation__link-search:active {
+    border-bottom: 3px solid #00897b;
+    text-decoration: none;
 }
 
 .navigation__button-cross {
