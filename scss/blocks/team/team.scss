@@ -6,7 +6,7 @@
 
 .team__images {
     width: 100%;
-    max-width: 370px;
+    max-width: 220px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 35px;
@@ -27,4 +27,16 @@
     color: inherit;
     font-size: 15px;
     margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+    .team__images {
+        max-width: 293px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .team__images {
+        max-width: 360px;
+    }
 }

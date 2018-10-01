@@ -42,6 +42,7 @@
 
 .work__image {
     width: 100%;
+    max-width: 220px;
     height: auto;
 }
 
@@ -118,6 +119,10 @@
     .work__buttons-link {
         font-size: 20px;
     }
+
+    .work__image {
+        max-width: 293px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -127,5 +132,9 @@
 
     .work__buttons-block {
         margin-bottom: 120px;
+    }
+
+    .work__image {
+        max-width: 360px;
     }
 }
