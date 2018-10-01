@@ -42,8 +42,9 @@
 .services__item-link:hover,
 .services__item-link:focus,
 .services__item-link:active {
-    color: #212121;
+    color: #fff;
     text-decoration: none;
+    background-color: #00665c;
 }
 
 .services__item:hover .services__item-link {
