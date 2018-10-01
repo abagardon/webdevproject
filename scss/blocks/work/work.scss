@@ -33,7 +33,7 @@
     overflow: hidden;
     display: block;
     width: 100%;
-    max-width: 370px;
+    max-width: 220px;
     height: 100%;
     max-height: 370px;
     margin: 0 auto;
@@ -52,14 +52,16 @@
     top: 0;
     left: 0;
     width: 100%;
+    max-width: 220px;
     height: 100%;
     opacity: 0;
     transition: opacity 0.8s ease;
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 145px;
+    padding-top: 95px;
 }
 
-.work__block-images:hover > .work__image-hover {
+.work__block-images:hover > .work__image-hover,
+.work__block-images:focus > .work__image-hover {
     opacity: 1;
     transition: opacity 0.8s ease;
 }
@@ -114,10 +116,15 @@
 @media only screen and (min-width: 992px) {
     .work__image-hover {
         padding-top: 125px;
+        max-width: 293px;
     }
 
     .work__buttons-link {
         font-size: 20px;
+    }
+
+    .work__block-images {
+        max-width: 293px;
     }
 
     .work__image {
@@ -128,6 +135,7 @@
 @media only screen and (min-width: 1200px) {
     .work__image-hover {
         padding-top: 155px;
+        max-width: 360px;
     }
 
     .work__buttons-block {
@@ -135,6 +143,10 @@
     }
 
     .work__image {
+        max-width: 360px;
+    }
+
+    .work__block-images {
         max-width: 360px;
     }
 }
