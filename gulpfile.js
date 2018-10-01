@@ -15,6 +15,7 @@ var run = require("run-sequence");
 var imagemin = require("gulp-imagemin");
 var uglify = require('gulp-uglify');
 var pump = require('pump');
+var concat = require('gulp-concat');
 
 
 var path = {
@@ -58,22 +59,19 @@ gulp.task("style", function() {
         .pipe(server.stream());
 });
 
-gulp.task('compress', function (done) {
-    del(path.build.js);
-    pump([
-        gulp.src('js/*.js'),
-        uglify(),
-        gulp.dest(path.build.js)
-      ],
-      done
-    );
-});
+gulp.task('scripts', function() {
+    return gulp.src(path.src.js)
+      .pipe(concat('script.js'))
+      .pipe(gulp.dest(path.build.js))
+      .pipe(uglify())
+      .pipe(rename("script.min.js"))
+      .pipe(gulp.dest(path.build.js))
+  });
 
 gulp.task("copy", function () {
     return gulp.src([
       path.src.fonts,
-      path.src.img,
-      path.src.js
+      path.src.img
     ], {
       base: "."
     })
@@ -106,6 +104,7 @@ gulp.task("build", function (done) {
     run(
         "clean",
         "copy",
+        "scripts",
         "style",
         "html",
         done
